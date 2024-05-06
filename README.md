@@ -445,3 +445,67 @@ body {
     text-align: center;
     padding: 16px 0;
 }
+<div class="estudante-todos">
+    <div class="estudante-div">
+        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
+        <h3 class="estudante-nome">Marcelo</h3>
+        <img class="estudante-icone" src="github.png" alt="icone github">
+        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
+        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
+    </div>
+    <div class="estudante-div">
+        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
+        <h3 class="estudante-nome">Marcelo</h3>
+        <img class="estudante-icone" src="github.png" alt="icone github">
+        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
+        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
+    </div>
+</div>
+.estudante-todos{
+    display: grid;
+}
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+<div class="estudante-todos">
+    <span></span>
+    <div class="estudante-div">
+        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
+        <h3 class="estudante-nome">Marcelo</h3>
+        <img class="estudante-icone" src="github.png" alt="icone github">
+        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
+        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
+    </div>
+    <div class="estudante-div">
+        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
+        <h3 class="estudante-nome">Marcelo</h3>
+        <img class="estudante-icone" src="github.png" alt="icone github">
+        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
+        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
+    </div>
+</div>
+<a href=""><img class="estudante-icone" src="github.png" alt="icone github"></a>
+<a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png"  alt="icone github"></a>
+
+<a href="https://www.linkedin.com/in/marcelopaludetto/"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+
+<a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+.estudante-titulo{
+    text-align: center;
+    padding: 24px 0;
+}
+<footer class="rodape">
+    
+</footer>
+<footer class="rodape">
+    <img class="rodape-imagem"src="alurastart logo.png" alt="logo da alura start">
+</footer>
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
