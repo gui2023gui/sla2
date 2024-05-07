@@ -301,7 +301,22 @@ body {
 <section class="estudante">
     <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
     <div class="estudante-div">
-        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
+        <img class="estudante-imagem" src="Marcelo.jpeg" al<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alura Plus</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+</body>
+
+</html>
+t="foto do marcelo">
         <h3 class="estudante-nome">Marcelo</h3>
         <img class="estudante-icone" src="github.png" alt="icone github">
         <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
@@ -693,4 +708,64 @@ body {
     height: 60px;
     padding: 12px 0;
    
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alura Plus</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+</body>
+
+</html>
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+body {
+    background-color: var(--cor-de-fundo);
+}
+<body>
+    <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
+</body>
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+<body>
+    <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
+    <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
+</body>
+<section class="principal">
+        <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
+        <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
+</section>
+.principal {
+    background-image: url("img/Background.png");
+}
+<body>
+    <section class="container principal">
+        <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
+        <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
+    </section>
+</body>
+.container {
+    height: 100vh;
+}
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
